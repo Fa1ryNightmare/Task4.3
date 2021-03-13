@@ -18,8 +18,6 @@ namespace Task4_3
                 aPrev = 3 + (1 / Math.Pow(2, n)) * Math.Pow(Math.Cos(aPrev - x), 2);
                 n++;
                 a += 3 + (1 / Math.Pow(2, n)) * Math.Pow(Math.Cos(aPrev - x), 2);
-                Console.WriteLine(Math.Abs(aPrev - a));
-                Console.WriteLine(eps);
             }
             Console.WriteLine($"Сумма: {a}");
         }
